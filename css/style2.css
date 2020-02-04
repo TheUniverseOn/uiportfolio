@@ -421,7 +421,7 @@ body{
     
 }
 .bookshelf > img{
-    flex: 1 1 30ch; 
+    flex: 1 1 20ch; 
     margin: .5rem; 
     border:  red; 
     text-align: center; 
