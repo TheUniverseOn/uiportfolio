@@ -409,3 +409,27 @@ background-image: linear-gradient(165deg, #3d627e 0%, #4f6e81 19%, #395469 66%, 
   display: block;
 }
 
+
+* {box-sizing: border-box;}
+body{
+    margin: 0; 
+}
+.bookshelf{
+    display: flex; 
+    flex-wrap: wrap;  
+    padding: 40px; 
+    
+}
+.bookshelf > img{
+    flex: 1 1 30ch; 
+    margin: .5rem; 
+    border:  red; 
+    text-align: center; 
+    display: flex; 
+    flex-wrap: wrap;  
+    padding: 30px; 
+    height: 50%;
+    width: 50%;
+    overflow: auto; 
+
+}
