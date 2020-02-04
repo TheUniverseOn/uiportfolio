@@ -421,7 +421,7 @@ body{
     
 }
 .bookshelf > img{
-    flex: 1 1 20ch; 
+    flex: 1 1 40ch; 
     margin: .5rem; 
     border:  red; 
     text-align: center; 
@@ -430,7 +430,7 @@ body{
     padding: 30px; 
     height: 50%;
     width: 50%;
-    overflow: auto; 
+    overflow: auto;  
 
 }
 @media screen and (max-width: 790px) {
