@@ -436,4 +436,18 @@ body{
 @media screen and (max-width: 790px) {
   .bookshelf > img{
     display: flex;
+    flex: 1 1 20ch; 
+    margin: .5rem; 
+    border:  red; 
+    flex-wrap: wrap;  
+    padding: 30px; 
+    height: 50%;
+    width: 50%;
+    overflow: auto; 
   }
+  
+
+  @media screen and (max-width: 790px) {
+    .resume{
+display: none; 
+    }
