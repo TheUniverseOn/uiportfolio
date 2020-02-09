@@ -13,7 +13,8 @@
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="../package/css/swiper.min.css">
     <script src="https://kit.fontawesome.com/51512b1c6e.js"></script>
-
+    <script src="/node_modules/jribbble/dist/jribbble.min.js"></script>
+</script>
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -146,15 +147,9 @@
     <!-- about_area_end -->
 
     <!-- dream_service_start -->
-
-    <script src="/path/to/jribbble.min.js"></script>
-    <script>
-    jribbble.shots({token: "0ca0df40d573f8051185ab4552477709e5e2a72e3dd1d4ee96c188bc83aa18da"}, function(shots) {
-        document.querySelector(".dribbble-shots-list").innerHTML = shots.reduce(function(html, shot) {
-          return html + '<li><a href="'+  shot.html_url + '" target="_blank"><img src="' + shot.images.normal + '"></a></li>';
-        }, "");
-      });
-    </script>
+  
+    
+    
 
 
 
@@ -365,7 +360,21 @@
                             booker</a> by Sophonias (<a href="https://codepen.io/TheUniverseOn">@TheUniverseOn</a>)
                         on <a href="https://codepen.io">CodePen</a>.</span>
                 </p>
-                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                <script async src="https://static.codepen.io/assets/embed/ei.js">
+                
+        
+                </script>
+            <br><br><br><br><br>
+<h1>Dribbble Shots</h1>
+<div class="wrapper"> 
+<div class="dribbble-shots-list"></div> </div>
+  <script> 
+jribbble.shots({token: "0ca0df40d573f8051185ab4552477709e5e2a72e3dd1d4ee96c188bc83aa18da"}, function(shots) {
+document.querySelector(".dribbble-shots-list").innerHTML = shots.reduce(function(html, shot) {
+ return html + '<li><a href="'+  shot.html_url + '" target="_blank"><img src="' + shot.images.normal + '"></a></li>';
+}, "");
+});
+</script>
 
                 <!-- messege_area_start -->
                 <div class="messege_area">
