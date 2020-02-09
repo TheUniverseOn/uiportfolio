@@ -144,8 +144,25 @@
         </div>
     </div>
     <!-- about_area_end -->
-
+ 
     <!-- dream_service_start -->
+  
+    <script src="/path/to/jribbble.min.js"></script>
+
+<script> jribbble.shots({token: "0ca0df40d573f8051185ab4552477709e5e2a72e3dd1d4ee96c188bc83aa18da"}, function(shots) {
+        document.querySelector(".dribbble-shots-list").innerHTML = shots.reduce(function(html, shot) {
+          return html + '<li><a href="'+  shot.html_url + '" target="_blank"><img src="' + shot.images.normal + '"></a></li>';
+        }, "");
+      });
+      </script>
+   
+      
+
+
+
+
+
+
 
 
     <div class="dream_service">
