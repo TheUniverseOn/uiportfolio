@@ -85,7 +85,7 @@
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
                                 <h3>UX/UI & product designer</h3>
-                                <h5> 
+                                <h5>
                                     On a mission to design great experiences and solve the world's biggest problems.
                                 </h5>
                                 <a href="#" class="boxed-btn2">Welcome</a>
@@ -144,19 +144,20 @@
         </div>
     </div>
     <!-- about_area_end -->
- 
-    <!-- dream_service_start -->
-  
-    <script src="/path/to/jribbble.min.js"></script>
 
-<script> jribbble.shots({token: "0ca0df40d573f8051185ab4552477709e5e2a72e3dd1d4ee96c188bc83aa18da"}, function(shots) {
-        document.querySelector(".dribbble-shots-list").innerHTML = shots.reduce(function(html, shot) {
-          return html + '<li><a href="'+  shot.html_url + '" target="_blank"><img src="' + shot.images.normal + '"></a></li>';
-        }, "");
-      });
-      </script>
-   
-      
+    <!-- dream_service_start -->
+
+    <script src="/path/to/jribbble.min.js"></script>
+    
+    <script>
+    jribbble.shots({token: "0ca0df40d573f8051185ab4552477709e5e2a72e3dd1d4ee96c188bc83aa18da"}, function(shotsArray) {
+      console.log(shotsArray); // The JSON from the API Request.
+    });
+  </script>
+    
+
+
+
 
 
 
@@ -300,21 +301,21 @@
             </div>
 
             <div class="row align-items-center mb-80">
-                    <div class="col-xl-6 col-md-6">
-                        <div class="single_project_thumb">
-                            <img src="img/client01/client01front.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-5 offset-xl-1 col-md-6">
-                        <div class="section_title">
-                            <span class="sub_heading2">Machinery Marketplace</span>
-                            <h4>Machinery Marketplace</h4>
-                            <p>
-                            </p>
-                            <a href="client01.html" class="boxed-btn">Read Case Study</a>
-                        </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="single_project_thumb">
+                        <img src="img/client01/client01front.png" alt="">
                     </div>
                 </div>
+                <div class="col-xl-5 offset-xl-1 col-md-6">
+                    <div class="section_title">
+                        <span class="sub_heading2">Machinery Marketplace</span>
+                        <h4>Machinery Marketplace</h4>
+                        <p>
+                        </p>
+                        <a href="client01.html" class="boxed-btn">Read Case Study</a>
+                    </div>
+                </div>
+            </div>
 
 
         </div>
